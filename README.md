@@ -1,2 +1,11 @@
-# Controle-Financeiro-em-JS
-Neste repositório, apresenta um pequeno sistema para controle financeiro em linguagem de JavaScript.
+# Controle Financeiro em JavaScript
+
+Projeto simples para praticar lógica e JavaScript.
+
+## Funcionalidades
+- Login simples
+- Controle de gastos
+- Estrutura básica de código
+
+## Tecnologias
+- JavaScript
