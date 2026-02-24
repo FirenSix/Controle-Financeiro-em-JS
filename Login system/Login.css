@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/vetores-gratis/vetor-de-fundo-ombre-de-verao-vibrante_53876-105765.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tela_de_login, #tela_de_registro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 260px;
+  background-color: rgba(207, 207, 207, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#tela_de_registro {
+  display: none;
+}
+
+/* CAMPOS COM ÍCONE */
+.campo {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.icone {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.campo input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.mostrar-senha {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+}
+
+.divisor_senha_botao {
+  position: absolute;
+  right: 35px;  /* ajustado para ficar antes do olho */
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(0,0,0,0.3);
+}
+
+/* BOTÕES */
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+/* BOTÃO GOOGLE */
+.botao-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+  height: 30px;
+}
+
+.botao-google:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.campo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.icone-google {
+  width: 20px;
+  height: 20px;
+}
+
+.icone-senha {
+  width: 35px;
+  height: 35px;
+}
+
+.icone-email {
+  width: 22px;
+  height: 22px;
+}
+
+.icone-usuario {
+  width: 17px;
+  height: 20px;
+}
+
+.icone-senha {
+  width: 22px;
+  height: 22px;
+}
