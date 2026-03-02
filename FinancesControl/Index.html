@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Controle Financeiro</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="menu-nome">
+    <div class="menu-hamburger">&#9776;</div>
+    <span class="app-nome">Meu Controle Financeiro</span>
+  </div>
+
+  <div class="usuario">
+    <div class="avatar"></div>
+  </div>
+</header>
+
+<main>
+  <section class="painel-principal">
+
+    <span class="titulo-saldo">Saldo:</span>
+    <h2 id="valor_saldo" class="saldo-positivo">R$ 0,00</h2>
+
+    <div class="divisoria"></div>
+
+    <div class="grafico-container">
+      <canvas id="graficoPizza"></canvas>
+    </div>
+
+    <div class="acoes-financeiras">
+
+      <input type="number" id="valor" placeholder="Digite o valor">
+
+      <div class="botoes">
+        <button id="btn-ganho">Adicionar Saldo</button>
+        <button id="btn-gasto">Adicionar Gasto</button>
+      </div>
+
+      <div id="area-extra" class="area-extra escondido">
+        <select id="categoria"></select>
+        <input type="text" id="descricao" placeholder="Descrição (opcional)">
+        <button id="confirmar">Confirmar</button>
+      </div>
+
+    </div>
+
+  </section>
+</main>
+
+<!-- Biblioteca externa -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Scripts -->
+<script src="assets/js/saldo.js"></script>
+<script src="assets/js/grafico.js"></script>
+<script src="assets/js/categorias.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

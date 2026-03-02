@@ -1,0 +1,157 @@
+/* RESET BÁSICO */
+body {
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1699891730676-037bed3c1bed?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= HEADER ================= */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: linear-gradient(90deg, #3498DB, #2ECC71);
+  border-radius: 0 0 9px 9px;
+}
+
+.menu-nome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-hamburger {
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.app-nome {
+  font-weight: bold;
+  color: white;
+}
+
+.usuario .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F1C40F;
+  cursor: pointer;
+}
+
+/* ================= PAINEL ================= */
+
+.painel-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  width: 60%;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.titulo-saldo {
+  font-size: 18px;
+  color: #555;
+}
+
+#valor_saldo {
+  font-size: 48px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.saldo-positivo {
+  color: #2ECC71;
+}
+
+.saldo-negativo {
+  color: #E74C3C;
+}
+
+.divisoria {
+  width: 80%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+  border-radius: 100px;
+}
+
+/* ================= GRÁFICO ================= */
+
+.grafico-container {
+  width: 250px;
+  margin: 0 auto 20px auto;
+}
+
+/* ================= AÇÕES ================= */
+
+.acoes-financeiras {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.acoes-financeiras input,
+.acoes-financeiras select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+}
+
+.botoes button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+#btn-ganho {
+  background-color: #2ECC71;
+}
+
+#btn-gasto {
+  background-color: #E74C3C;
+}
+
+.area-extra {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.escondido {
+  display: none;
+}
+
+#confirmar {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498DB;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
