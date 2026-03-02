@@ -1,6 +1,7 @@
 # Controle Financeiro em JavaScript
 
 Projeto simples para praticar lógica e JavaScript.
+(ainda em desenvolvimento)
 
 ## Funcionalidades
 - Login simples
